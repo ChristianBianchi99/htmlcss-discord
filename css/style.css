@@ -7,6 +7,7 @@ body {
     font-size: 20px;
     font-family: roboto, sans-serif;
     font-weight: 500;
+    font-size: 16px;
 }
 /* INIZIO STILI HEADER */
 header {
@@ -64,9 +65,8 @@ h1 {
     font-size: 45px;
 }
 .col-jumbotron p {
-    font-size: 16px;
     margin: 40px 0px 30px;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 .col-jumbotron button {
     font-family: roboto, sans-serif;
@@ -75,7 +75,6 @@ h1 {
     border: none;
     border-radius: 30px;
     margin: 0px 10px;
-    font-size: 16px;
 }
 .jumbo-buttons :nth-child(2) {
     color: white;
@@ -89,16 +88,22 @@ h1 {
 .container-main {
     padding: 50px 0px;
 }
-.row-main {
-    height: 400px;
-}
 .col-60 {
     width: 60%;
-    background-color: rgb(30, 144, 255);
+}
+.col-60 img {
+    height: 350px;
 }
 .col-40 {
     width: 40%;
-    background-color: rgb(255, 192, 203);
+    padding: 25px 55px 0px;
+}
+h2 {
+    font-size: 40px;
+}
+.col-40 p {
+    line-height: 1.6;
+    margin-top: 15px;
 }
 .background-colored {
     background-color: rgb(211, 211, 211);
