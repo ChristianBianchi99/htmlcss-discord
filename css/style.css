@@ -68,7 +68,7 @@ h1 {
     margin: 40px 0px 30px;
     line-height: 1.6;
 }
-.col-jumbotron button {
+.jumbo-buttons :nth-child(2), .download-button {
     font-family: roboto, sans-serif;
     font-weight: 500;
     padding: 10px 20px;
@@ -92,7 +92,7 @@ h1 {
     width: 60%;
 }
 .col-60 img {
-    height: 350px;
+    height: 80%;
 }
 .col-40 {
     width: 40%;
@@ -101,19 +101,45 @@ h1 {
 h2 {
     font-size: 40px;
 }
-.col-40 p {
+.col-40 p, .col-main-4 p {
     line-height: 1.6;
     margin-top: 15px;
 }
-.background-colored {
-    background-color: rgb(211, 211, 211);
-}
-.row-main-4 {
-    height: 600px;
-}
-.row-main-4 .col {
+.wave {
+    opacity: 0.1;
     width: 100%;
-    background-color: rgb(34, 139, 34);
+    height: 100px;
+    margin-bottom: -4px;
+}
+.reversed {
+    margin-bottom: 0px;
+    transform: scaleY(-1);
+}
+.background-colored {
+    background-color: rgb(229, 229, 229);
+}
+.col-main-4 {
+    text-align: center;
+}
+.col-main-4 p {
+    padding: 0px 100px 0px 100px;
+}
+.col-main-4 img {
+    width: 90%;
+}
+.col-main-4 h3 {
+    font-size: 25px;
+    background-image: url(../img/stars.svg);
+    padding: 30px 30px 0px;
+    display: inline-block;
+    background-size: contain;
+    background-position-y: 3px;
+    margin-bottom: 30px;
+}
+.alternative-button {
+    background-color: rgb(142, 161, 225);
+    color: white;
+    margin-bottom: 50px;
 }
 /* FINE STILI MAIN */
 /* INIZIO STILI FOOTER */
