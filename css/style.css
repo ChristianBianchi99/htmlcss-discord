@@ -5,53 +5,84 @@
 }
 body {
     font-size: 20px;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
 }
 /* INIZIO STILI HEADER */
 header {
-    background-color: rgb(173, 216, 230);
+    background-color: rgb(49, 97, 224);
     height: 100%;
-    padding-bottom: 3px;
 }
 header .container {
     padding: 15px 0px;
 }
 .row-header {
-    background-color: rgb(218, 165, 32);
+    justify-content: space-between;
 }
-.col-logo, .col-login {
-    width: 20%;
-}
-.col-link {
-    width: 60%;
-    justify-content: center;
+.row-header *{
     display: flex;
+    align-items: center;
 }
 .col-login {
-    display: flex;
-    justify-content: flex-end;
-}
-#logo, #login {
-    margin: 10px;
 }
 .link {
-    margin: 10px 5px;
     display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px 20px;
+}
+#login {
+    font-size: 12px;
+    background-color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 15px;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
 }
 /* JUMBOTRON */
 .background-jumbotron {
-    background-color: rgb(0, 0, 139);
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 .container-jumbotron {
-    width: 55%;
-    padding: 50px;
+    width: 46%;
+    padding: 90px 0px 135px;
     margin: auto;
 }
-.row-jumbotron {
-    background-color: rgb(238, 130, 238);
+.col-jumbotron {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.row-jumbotron .col {
-    height: 350px;
-    width: 100%;
+h1, .col-jumbotron p {
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 45px;
+}
+.col-jumbotron p {
+    font-size: 16px;
+    margin: 40px 0px 30px;
+    line-height: 1.7;
+}
+.col-jumbotron button {
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    margin: 0px 10px;
+    font-size: 16px;
+}
+.jumbo-buttons :nth-child(2) {
+    color: white;
+    background-color: rgb(35, 39, 42);
+}
+.download-icon {
+    padding-right: 5px;
 }
 /* FINE STILI HEADER */
 /* INIZIO STILI MAIN */
@@ -130,9 +161,9 @@ header .container {
 }
 .row {
     display: flex;
+    width: 100%;
 }
 .col {
     border: 2px dashed black;
-    height: 100%;
 }
 /* FINE STILI IN COMUNE */
