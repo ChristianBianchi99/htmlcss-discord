@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 20px;
+}
+/* INIZIO STILI HEADER */
+header {
+    background-color: rgb(173, 216, 230);
+    height: 100%;
+    padding-bottom: 3px;
+}
+header .container {
+    padding: 15px 0px;
+}
+.row-header {
+    background-color: rgb(218, 165, 32);
+}
+.col-logo, .col-login {
+    width: 20%;
+}
+.col-link {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+}
+.col-login {
+    display: flex;
+    justify-content: flex-end;
+}
+#logo, #login {
+    margin: 10px;
+}
+.link {
+    margin: 10px 5px;
+    display: inline-block;
+}
+/* JUMBOTRON */
+.background-jumbotron {
+    background-color: rgb(0, 0, 139);
+}
+.container-jumbotron {
+    width: 55%;
+    padding: 50px;
+    margin: auto;
+}
+.row-jumbotron {
+    background-color: rgb(238, 130, 238);
+}
+.row-jumbotron .col {
+    height: 350px;
+    width: 100%;
+}
+/* FINE STILI HEADER */
+/* INIZIO STILI MAIN */
+.container-main {
+    padding: 50px 0px;
+}
+.row-main {
+    height: 400px;
+}
+.col-60 {
+    width: 60%;
+    background-color: rgb(30, 144, 255);
+}
+.col-40 {
+    width: 40%;
+    background-color: rgb(255, 192, 203);
+}
+.background-colored {
+    background-color: rgb(211, 211, 211);
+}
+.row-main-4 {
+    height: 600px;
+}
+.row-main-4 .col {
+    width: 100%;
+    background-color: rgb(34, 139, 34);
+}
+/* FINE STILI MAIN */
+/* INIZIO STILI FOOTER */
+/* FOOTER TOP */
+.background-footer {
+    background-color: rgb(35, 39, 42);
+}
+.container-footer-top {
+    padding: 10px 0px 40px 0px;
+}
+.row-footer-top {
+    height: 450px;
+}
+.col-30 {
+    width: 30%;
+    background-color: rgb(240, 128, 128);
+}
+.col-70 {
+    width: 70%;
+    background-color: rgb(32, 178, 170);
+}
+.row-col-70 {
+    height: 100%;
+}
+.col-25 {
+    width: 25%;
+    border: 2px dashed white;
+}
+/* FOOTER BOTTOM */
+.background-footer-bottom {
+    margin-top: 2px;
+}
+.background-footer-bottom .container {
+    padding-top: 30px;
+}
+.row-footer-bottom {
+    justify-content: space-between;
+    background-color: rgb(127, 255, 212);
+}
+.row-footer-bottom .col {
+    padding: 5px 10px;
+    margin: 20px 0px;
+    background-color: rgb(255, 182, 193);
+}
+/* FINE STILI FOOTER */
+/* INIZIO STILI IN COMUNE */
+.container {
+    width: 70%;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
+.col {
+    border: 2px dashed black;
+    height: 100%;
+}
+/* FINE STILI IN COMUNE */
